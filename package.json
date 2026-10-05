@@ -1,0 +1,63 @@
+{
+  "author": {
+    "email": "hello@nativeship.io",
+    "name": "nativeship",
+    "url": "https://github.com/nativeship"
+  },
+  "description": "GoDaddy helps businesses register domains and manage DNS, renewals, and domain settings",
+  "devDependencies": {
+    "@n8n/node-cli": "0.41.2",
+    "@types/node": "22.15.29",
+    "eslint": "9.29.0",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "\u003e=22.22.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/nativeship/n8n-nodes-godaddy-domain",
+  "keywords": [
+    "n8n-community-node-package",
+    "nativeship",
+    "nativeship-nodes",
+    "n8n",
+    "godaddy",
+    "n8n-node",
+    "domain-registration",
+    "domain-management",
+    "dns-management",
+    "website-services"
+  ],
+  "license": "MIT",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/GodaddyDomain/GodaddyDomain.node.js"
+    ],
+    "strict": true
+  },
+  "name": "@nativeship/n8n-nodes-godaddy-domain",
+  "nativeShip": {
+    "artifactSha256": "56a6040c7ad6c05ff5effd1d44470ac6c1b700d53f511b6d00edf188f33ac928"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativeship/n8n-nodes-godaddy-domain.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix"
+  },
+  "version": "1.0.0"
+}
